@@ -1,0 +1,573 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ 
+
+#navigation {
+    background-color: #16081d;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+#navbarNav .nav-link:hover {
+    color:orangered;
+
+}
+hr{
+    color: white;
+    background-color: #16081d;
+}
+
+
+.custom-row {
+    height: 90vh;
+    background-image: url(/project/image/black\ background.jpg);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+}
+
+#photo {
+    border-radius: 100%;
+    position: relative;
+    top: 5px;
+    height: 60px;
+    width: 50px;
+
+}
+
+
+.custom-col {
+    position: absolute;
+    top: 290px;
+}
+
+.custom-col h1:hover {
+    color: #b636ff;
+}
+
+.custom-col1 {
+    position: absolute;
+    top: 500px;
+}
+
+
+.custom-col1 a {
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 5px #412154;
+}
+
+#about h3 {
+    animation-name: about;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes about {
+    0% {
+        color: aqua;
+    }
+
+    25% {
+        color: #b636ff;
+    }
+
+    50% {
+        color: chocolate
+    }
+
+    75% {
+        color: cyan;
+    }
+
+    100% {
+        color: aqua;
+    }
+
+}
+
+#skill h3 {
+    animation-name: skill;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes skill {
+    0% {
+        color: aqua;
+    }
+
+    25% {
+        color: #b636ff;
+    }
+
+    50% {
+        color: orangered
+    }
+
+    75% {
+        color: cyan;
+    }
+
+    100% {
+        color: aqua;
+    }
+
+}
+
+#education h2 {
+    animation-name: edu;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes edu {
+    0% {
+        color: aqua;
+    }
+
+    25% {
+        color: #b636ff;
+    }
+
+    50% {
+        color: orange
+    }
+
+    75% {
+        color: cyan;
+    }
+
+    100% {
+        color: aqua;
+    }
+
+}
+
+#project h2 {
+    animation-name: pro;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pro {
+    0% {
+        color: aqua;
+    }
+
+    25% {
+        color: #b636ff;
+    }
+
+    50% {
+        color: red
+    }
+
+    75% {
+        color: cyan;
+    }
+
+    100% {
+        color: aqua;
+    }
+
+}
+
+#contact h3 {
+    animation-name: con;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes con {
+    0% {
+        color: aqua;
+    }
+
+    25% {
+        color: #b636ff;
+    }
+
+    50% {
+        color: yellowgreen
+    }
+
+    75% {
+        color: cyan;
+    }
+
+    100% {
+        color: aqua;
+    }
+
+}
+#education{
+    display: flex;
+    flex-direction: column;
+   
+}
+#education1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 10%;
+    max-width: 30%;
+    position: relative;
+    left: 30px;
+    box-shadow: 4px 4px 10px white;
+}
+#education2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 10%;
+    max-width: 30%;
+    position: relative;
+    left: 60px;
+    box-shadow: 4px 4px 10px white;
+}
+
+#education3 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 10%;
+    max-width: 30%;
+    position: relative;
+    left: 90px;
+    box-shadow: 4px 4px 10px white;
+}
+
+#education p {
+    border: 0px solid red;
+    max-width: 350px;
+}
+
+
+#about .custom-col2 p {
+    height: 25vh;
+    width: 70vh;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: initial;
+    left: 150px;
+    top: 200px;
+}
+
+#about .custom-col2 h2 {
+    position: relative;
+    left: 230px;
+    top: 150px;
+    color: #b636ff;
+}
+
+#image {
+    height: 40vh;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 90px;
+    left: 200px;
+    border-radius: 100%;
+    animation-name: animetion;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes animetion {
+    from {
+        position: relative;
+        box-shadow: 2px 2px 10px 10px rgb(46, 254, 188);
+    }
+
+    to {
+        transform: scale(1.1, 1.1);
+        box-shadow: 5px 5px 10px 10px rgb(246, 239, 46);
+    }
+}
+
+.progress-bar {
+    height: 5px;
+    width: 40px;
+}
+
+.percent {
+    position: relative;
+    top: 45px;
+}
+
+#project1 p {
+    margin-left: 12px;
+}
+
+#project2 p {
+    margin-left: 12px;
+}
+
+#project3 p {
+    margin-left: 12px;
+}
+
+#about {
+    padding-top: 150px;
+    background-image: url(/project/image/black\ background.jpg);
+}
+
+#skill {
+    padding-top: 50px;
+    background-image: url(/project/image/black\ background.jpg);
+
+}
+
+#education {
+    padding-top: 150px;
+    background-image: url(/project/image/black\ background.jpg);
+    height: 90vh;
+}
+
+#project {
+    padding-top: 110px;
+    background-image: url(/project/image/black\ background.jpg);
+
+    height: 120vh;
+}
+
+#contact {
+    padding-top: 150px;
+    background-image: url(/project/image/black\ background.jpg);
+    height: 110vh;
+}
+
+#project1 {
+    border-radius: 20%;
+    background-color: #fff;
+    height: 30vh;
+    width: 30%;
+    
+}
+#project1 h3{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+#project1 p{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+#project1:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 5px 5px 10px 10px #b3b3b3;
+    transition-duration: 2s;
+    /* transform: rotate3d(5deg); */
+    background-color: black;
+    color: white;
+}
+
+#project2 {
+    border-radius: 20%;
+    background-color: #fff;
+    height: 30vh;
+    width: 30%;
+    position: relative;
+    left: 390px;
+}
+#project2 h3{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+#project2 p{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+#project2:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 5px 5px 10px 10px #b3b3b3;
+    transition-duration: 2s;
+    /* transform: rotate3d(8deg); */
+    background-color: black;
+    color: white;
+}
+
+#project3 {
+    border-radius: 20%;
+    background-color: #fff;
+    height: 40vh;
+    width: 30%;
+    position: relative;
+    top: 50px;
+}
+#project3 h3{
+    position: relative;
+    top: 10px;
+}
+#project3 p{
+    position: relative;
+    top: 10px;
+}
+
+#project3:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 5px 5px 10px 10px #b3b3b3;
+    transition-duration: 2s;
+    /* transform: rotate3d(8deg); */
+    background-color: black;
+    color: white;
+}
+
+#submit {
+    background-color: #b636ff;
+    padding: 10px;
+    color: white;
+    height: 50px;
+    width: 380px;
+    display: block;
+    text-align: center;
+}
+
+
+
+#submit:hover {
+    background-color: #e2b3fd;
+    color: black;
+}
+
+#details1 {
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+
+#details2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: relative;
+    left: 750px;
+    top: -500px;
+    color: #fff;
+    width: 20%;
+}
+
+#details2 h2 {
+    opacity: 0.7;
+}
+
+#details2 p {
+    opacity: 0.5;
+}
+
+@media only screen and (min-width:400px) and (max-width:700px) {
+    #navigation {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+
+    .custom-col {
+        position: relative;
+        text-align: center;
+        top: 250px;
+    }
+
+    #about .custom-col2 p {
+        height: 25vh;
+        width: 70vh;
+        position: relative;
+        left: 15px;
+        top: 100px;
+    }
+
+    #image {
+        height: 40vh;
+        width: 300px;
+        display: flex;
+        position: relative;
+        top: 50px;
+        left: 150px;
+
+    }
+
+    #project1 {
+
+        background-color: #fff;
+        height: 30vh;
+        width: 50%;
+    }
+
+    #project2 {
+
+        background-color: #fff;
+        height: 30vh;
+        width: 40%;
+        position: relative;
+        left: 100px;
+
+    }
+
+    #project3 {
+
+        background-color: #fff;
+        height: 60vh;
+        width: 50%;
+    }
+
+    #details1 {
+        position: relative;
+        top: 80px;
+        left: 0px;
+    }
+
+    #submit {
+        border: 0px solid black;
+        background-color: #b636ff;
+        text-decoration: none;
+        padding: 10px;
+        color: white;
+        height: 50px;
+        width: 300px;
+        display: block;
+        text-align: center;
+        position: relative;
+        top: 100px;
+        left: 0px;
+    }
+
+    #details2 {
+        position: relative;
+        right: -370px;
+        top: -250px;
+    }
+}
+
+/* @media only screen and (min-width:0px) and (max-width:399px) {
+    #navigation{
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+    .custom-col{
+        position: relative;
+        text-align: center;
+        top: 250px;
+    }
+} */
