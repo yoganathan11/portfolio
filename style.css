@@ -24,7 +24,7 @@ hr{
 
 .custom-row {
     height: 90vh;
-    background-image: url(/image/black\ background.jpg);
+    background-image: url(/image/black background.jpg);
     background-position-x: center;
     background-position-y: bottom;
     background-size: cover;
@@ -325,31 +325,31 @@ hr{
 
 #about {
     padding-top: 150px;
-    background-image: url(/image/black\ background.jpg);
+    background-image: url(/image/black background.jpg);
 }
 
 #skill {
     padding-top: 50px;
-    background-image: url(/image/black\ background.jpg);
+    background-image: url(/image/black background.jpg);
 
 }
 
 #education {
     padding-top: 150px;
-    background-image: url(/image/black\ background.jpg);
+    background-image: url(/image/black background.jpg);
     height: 90vh;
 }
 
 #project {
     padding-top: 110px;
-    background-image: url(/image/black\ background.jpg);
+    background-image: url(/image/black background.jpg);
 
     height: 120vh;
 }
 
 #contact {
     padding-top: 150px;
-    background-image: url(/image/black\ background.jpg);
+    background-image: url(/image/black background.jpg);
     height: 110vh;
 }
 
