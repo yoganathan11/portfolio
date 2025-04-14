@@ -2,49 +2,33 @@
     margin: 0px;
     padding: 0px;
 }
- 
-
 #navigation {
     background-color: #16081d;
     position: sticky;
     top: 0;
     z-index: 100;
 }
-
-
 #navbarNav .nav-link:hover {
     color:orangered;
-
 }
-hr{
-    color: white;
-    background-color: #16081d;
-}
-
-
 .custom-row {
     height: 90vh;
-    background-image: url(/image/black background.jpg);
+    background-image: url(./image/black background.jpg);
     background-position-x: center;
     background-position-y: bottom;
     background-size: cover;
 }
-
 #photo {
     border-radius: 100%;
     position: relative;
     top: 5px;
     height: 60px;
     width: 50px;
-
 }
-
-
 .custom-col {
     position: absolute;
     top: 290px;
 }
-
 .custom-col h1:hover {
     color: #b636ff;
 }
@@ -53,8 +37,6 @@ hr{
     position: absolute;
     top: 500px;
 }
-
-
 .custom-col1 a {
     border-radius: 20px;
     box-shadow: 2px 2px 5px 5px #412154;
@@ -65,7 +47,6 @@ hr{
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
-
 @keyframes about {
     0% {
         color: aqua;
@@ -325,31 +306,31 @@ hr{
 
 #about {
     padding-top: 150px;
-    background-image: url(/image/black background.jpg);
+    background-image: url(./image/black background.jpg);
 }
 
 #skill {
     padding-top: 50px;
-    background-image: url(/image/black background.jpg);
+    background-image: url(./image/black background.jpg);
 
 }
 
 #education {
     padding-top: 150px;
-    background-image: url(/image/black background.jpg);
+    background-image: url(./image/black background.jpg);
     height: 90vh;
 }
 
 #project {
     padding-top: 110px;
-    background-image: url(/image/black background.jpg);
+    background-image: url(./image/black background.jpg);
 
     height: 120vh;
 }
 
 #contact {
     padding-top: 150px;
-    background-image: url(/image/black background.jpg);
+    background-image: url(./image/black background.jpg);
     height: 110vh;
 }
 
