@@ -345,6 +345,7 @@
     position: relative;
     left: 20px;
     top: 20px;
+    color: rgb(212, 139, 5);
 }
 #project1 p{
     position: relative;
@@ -369,6 +370,7 @@
     position: relative;
     left: 20px;
     top: 20px;
+    color: rgb(212, 139, 5);
 }
 #project2 p{
     position: relative;
@@ -391,6 +393,7 @@
 #project3 h3{
     position: relative;
     top: 10px;
+    color: rgb(212, 139, 5);
 }
 #project3 p{
     position: relative;
