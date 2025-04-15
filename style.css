@@ -2,14 +2,21 @@
     margin: 0px;
     padding: 0px;
 }
-#navigation {
-    background-color: #16081d;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+.navbar{
+    background-color: rgb(0, 0, 0);
+}
+.yoga{
+    color: white;
+}
+.yoga:hover{
+    color:rgb(255, 139, 14);
+}
+#navbarNav .nav-link{
+    color: white;
 }
 #navbarNav .nav-link:hover {
-    color:orangered;
+    color:rgb(255, 139, 14);
+
 }
 .custom-row {
     height: 90vh;
@@ -291,19 +298,6 @@
     position: relative;
     top: 45px;
 }
-
-#project1 p {
-    margin-left: 12px;
-}
-
-#project2 p {
-    margin-left: 12px;
-}
-
-#project3 p {
-    margin-left: 12px;
-}
-
 #about {
     padding-top: 150px;
     background-image: url(./image/black_background.jpg);
@@ -336,9 +330,15 @@
 
 #project1 {
     border-radius: 20%;
-    background-color: #fff;
     height: 30vh;
     width: 30%;
+    position: relative;
+    left: 20px;
+    transform: scale(1.1, 1.1);
+    box-shadow: 0px 5px 10px #b3b3b3;
+    transition-duration: 2s;
+    background-color: black;
+    color: white; 
     
 }
 #project1 h3{
@@ -350,23 +350,20 @@
     position: relative;
     left: 20px;
     top: 20px;
-}
-
-#project1:hover {
-    transform: scale(1.1, 1.1);
-    box-shadow: 5px 5px 10px 10px #b3b3b3;
-    transition-duration: 2s;
-    background-color: black;
-    color: white;
+    margin-left: 12px;
 }
 
 #project2 {
     border-radius: 20%;
-    background-color: #fff;
     height: 30vh;
     width: 30%;
     position: relative;
     left: 390px;
+    transform: scale(1.1, 1.1);
+    box-shadow: 0px 5px 10px #b3b3b3;
+    transition-duration: 2s;
+    background-color: black;
+    color: white;
 }
 #project2 h3{
     position: relative;
@@ -377,23 +374,19 @@
     position: relative;
     left: 20px;
     top: 20px;
+    margin-left: 12px;
 }
-
-#project2:hover {
-    transform: scale(1.1, 1.1);
-    box-shadow: 5px 5px 10px 10px #b3b3b3;
-    transition-duration: 2s;
-    background-color: black;
-    color: white;
-}
-
 #project3 {
-    border-radius: 20%;
-    background-color: #fff;
+   border-radius: 20%;
     height: 40vh;
     width: 30%;
     position: relative;
     top: 50px;
+    transform: scale(1.1, 1.1);
+    box-shadow: 0px 5px 10px #b3b3b3;
+    transition-duration: 2s;
+    background-color: black;
+    color: white;
 }
 #project3 h3{
     position: relative;
@@ -402,16 +395,8 @@
 #project3 p{
     position: relative;
     top: 10px;
+    margin-left: 12px;
 }
-
-#project3:hover {
-    transform: scale(1.1, 1.1);
-    box-shadow: 5px 5px 10px 10px #b3b3b3;
-    transition-duration: 2s;
-    background-color: black;
-    color: white;
-}
-
 #submit {
     background-color: #b636ff;
     padding: 10px;
@@ -421,9 +406,6 @@
     display: block;
     text-align: center;
 }
-
-
-
 #submit:hover {
     background-color: #e2b3fd;
     color: black;
